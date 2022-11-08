@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation game</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <h1>Become a frontend-Developer</h1>
+  <hr>
+  <div class="list">
+    <h2>How to play</h2>
+    <ul>
+      <li>Skills are randomly moved across the screen every 10 seconds</li>
+      <li>Stand next to a skill <em>before the skills move</em> to earn that specific skill</li>
+    </ul>
+  </div>
+  <hr>
+  <div class="list">
+    <h3>Live status</h2>
+    <ul>
+      <li>Skills available: <em id="available"></em></li>
+      <li>Skills earned: <em id="earned"></em></li>
+    </ul>
+  </div>
+  <hr>
+  <canvas id="canvas"></canvas>
+</body>
+</html>
