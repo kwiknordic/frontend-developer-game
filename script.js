@@ -137,6 +137,12 @@ function eventDelegation() {
     }
   })
 
+  document.addEventListener("keyup", e => {
+    if (e.code === "Enter") {
+      location.reload()
+    }
+  })
+
   document.addEventListener("keydown", e => {
     if (isThrottled) return
     if (!arrows.includes(e.key)) return

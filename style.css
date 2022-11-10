@@ -19,10 +19,11 @@ h1 {
 
 h1, .list {
   padding-inline: 2rem;
+  margin-block: 1rem;
 }
 
-h1, .list {
-  margin-block: 1rem;
+.nested-ul {
+  padding-left: 1rem;
 }
 
 @media (min-width: 768px) {
