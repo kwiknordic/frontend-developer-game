@@ -1,5 +1,5 @@
 # Frontend-developer game
-Live-demo: https://astounding-cajeta-a7c578.netlify.app/
+Live-demo: https://frontend-dev-game.netlify.app/
   
 # Om projektet
 Projektet är en fingervisning på mina JavaScript (ES6+), CSS och HTML-kunskaper med Canvas.
